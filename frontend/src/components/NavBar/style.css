@@ -1,0 +1,26 @@
+header {
+    background-color: var(--color-primary);
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.tsmovie-nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.tsmovie-nav-content h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.tsmovie-contact-container {
+    display: flex;
+}
+
+.tsmovie-contact-link {
+    margin: 0 0 0 10px;
+}
