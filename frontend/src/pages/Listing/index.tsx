@@ -21,7 +21,7 @@ function Listing() {
 
   useEffect(() => {
     axios
-    //&sort=para deixar a ordem dos filmes por titulo se colocar id ordenar de acordo com o id do banco de dados.
+    //&sort=para deixar em ordem alfabetica dos filmes por titulo se colocar id ordenar de acordo com o id do banco de dados.
       .get(`${BASE_URL}/movies?size=12&page=${pageNumber}&sort=title`)
       .then((response) => {
         const data = response.data as MoviePage;
